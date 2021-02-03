@@ -54,6 +54,46 @@ terraform apply
 terraform destroy
 
 
+.
+├── acm
+│   ├── acm.tf
+│   └── variables.tf
+├── api_gateway
+│   ├── main.tf
+│   └── main.tf_bk
+├── buckets
+│   └── main.tf
+├── _build
+│   ├── lambda_html.zip
+│   └── lambda_json.zip
+├── cloudfront
+│   └── main.tf
+├── edge_lambdas
+│   └── main.tf
+├── lambdas
+│   ├── main.tf.old
+│   └── maint.tf
+├── main.tf
+├── michael
+├── objects
+│   └── main.tf
+├── README.md
+├── src
+│   ├── assets
+│   │   └── example.jpg
+│   ├── _build
+│   │   └── lambda_function.zip
+│   ├── lambda-function
+│   │   └── lambda_function.py
+│   ├── lambda_html
+│   │   └── index.js
+│   └── lambda_json
+│       └── index.js
+├── terraform.tfstate
+├── terraform.tfstate.backup
+└── terraform.tfvars
+
+
 ```
 To do
 
