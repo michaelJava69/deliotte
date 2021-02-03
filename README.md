@@ -43,7 +43,8 @@ Instructions here <https://docs.aws.amazon.com/cli/latest/userguide/install-maco
 
 ## Run Deployment
 
-git alone 
+git clone https://github.com/michaelJava69/deliotte.gitcd deliotte
+cd deliotte 
 
 terraform init
 terraform plan
