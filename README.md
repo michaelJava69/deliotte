@@ -1,6 +1,14 @@
 # terraform-lambdas-api-gateway-cloudfront
 
-Example terraform/terragrunt scripts for lambdas, api-gateway and cloudfront
+Example terraform scripts for lambdas, api-gateway and cloudfront
+
+- Hello World lambda edge optimized
+- Python lambda dynamic script
+- Image that is cached using cloudfront
+ACM for Route53 Domain registering
+IAM Rules to allow lambda / API communication
+
+
 
 ## Intro
 
@@ -46,5 +54,9 @@ terraform destroy
 
 
 ```
+To do
 
 Please note that sections/modules buidling the edge lambdas and acm and Route53 have been commented out becuase ran out of ACM allocations.
+Optimize cloudfront to serve parts of world required for cost savings [at pricecing 100 at mo]
+Get the python accessible through API DNS URL and eventually Domain address after adding a mapping to cloudfront and Route53
+Lots of other things
